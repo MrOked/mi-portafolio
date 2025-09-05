@@ -1,6 +1,5 @@
 import CircleImage from "@/components/circle-image";
 import TransitionPage from "@/components/transition-page";
-import { dataTestimonials } from "@/data";
 import { div } from "framer-motion/client";
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -36,16 +35,6 @@ const TestimonialsPage = () => {
                             className="h-[380px] md:h-[300px] w-[270px] md:w-[550px]"
                     
                         >
-
-                        {dataTestimonials.map(({id, name, description, imageUrl}) => (
-                            <SwiperSlide key={id}>
-                                 <Image src={imageUrl} alt={name} width="100" height="100" className="mx-auto rounded-full" />
-                                  <h4 className='text-center'>{name}</h4>
-                                  <div className="mt-5 text-center">
-                                        {description}
-                                  </div>
-                            </SwiperSlide>
-                        ))}
 
                     </Swiper>
                 </div>
