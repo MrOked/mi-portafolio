@@ -7,7 +7,6 @@ import "swiper/css/scrollbar"
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Header from "@/components/header";
-import GradientBackground from "@/components/gradient";
 
 
 
