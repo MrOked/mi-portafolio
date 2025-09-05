@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html, body{
+  color: floralwhite;
+  background-color: black;
+}
+
+main{
+  background: linear-gradient(to bottom, #000000, #0a1f0a, #065f46, #10b981);
+  height: 100vh;
+  height: 100dvh;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f5741c;
+}
