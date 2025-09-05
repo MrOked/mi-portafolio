@@ -1,5 +1,4 @@
 "use client";
-import { div } from "framer-motion/client";
 import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
