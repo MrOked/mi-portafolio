@@ -1,8 +1,7 @@
 import CoverParticles from "@/components/cover-particles";
 import Introduction from "@/components/introduction";
 import TransitionPage from "@/components/transition-page";
-import { main } from "framer-motion/client";
-import Image from "next/image";
+
 
 
 export default function Home() {
