@@ -154,14 +154,14 @@ export const dataPortfolio = [
         id: 1,
         title: "Proyecto ERP",
         image: "/proyecto-erp.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/MrOked/proyecto-erp",
         urlDemo: "#!",
     },
     {
         id: 2,
         title: "Mi portafolio",
         image: "/mi-portafolio.png",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/MrOked/mi-portafolio",
         urlDemo: "#!",
     }
 ];
