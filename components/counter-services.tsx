@@ -1,6 +1,5 @@
 "use client";
 import { dataCounter } from "@/data";
-import { div } from "framer-motion/client";
 
 import CountUp from "react-countup";
 
